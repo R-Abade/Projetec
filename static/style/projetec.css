@@ -42,6 +42,16 @@
     cursor: pointer;
 }
 
+.logar {
+    display: inline;
+    color: whitesmoke;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: inherit;
+    border: none;
+
+}
+
 .navbar ul li {
     list-style: none;
     display: inline-block;

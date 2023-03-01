@@ -30,7 +30,7 @@ body
 {
 	position: relative;
 	width: 380px;
-	height: 420px;
+	height: 400px;
 	background: #1b1a1a;
 	border-radius: 8px;
 	overflow: hidden;
@@ -43,7 +43,7 @@ body
 	top: -50%;
 	left: -50%;
 	width: 380px;
-	height: 420px;
+	height: 300px;
 	transform-origin: bottom right;
 	background: linear-gradient(0deg,transparent,#F9EADA,#F9EADA);
 	animation: animate 6s linear infinite;
@@ -56,7 +56,7 @@ body
 	top: -50%;
 	left: -50%;
 	width: 380px;
-	height: 420px;
+	height: 500px;
 	transform-origin: bottom right;
 	background: linear-gradient(0deg,transparent,#F9EADA,#F9EADA);
 	animation: animate 6s linear infinite;
@@ -100,7 +100,7 @@ h2
 .inputBox input 
 {
 	position: relative;
-	width: 100%;
+	width: 300px;
 	padding: 20px 10px 10px;
 	background: transparent;
 	outline: none;
@@ -175,7 +175,7 @@ input[type="submit"]
 	cursor: pointer;
 	border-radius: 4px;
 	font-weight: 600;
-	width: 100px;
+	width: 300px;
 	margin-top: 10px;
 }
 input[type="submit"]:active 

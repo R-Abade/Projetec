@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Página de cadastro do usuário</title>
+		<link rel="stylesheet" href="/static/style/login.css">
+	</head>
+
+	<body class="banner">
+		<div class="box">
+			<form action={{url_for('cadUser')}} method="POST" autocomplete="on">
+				<h2>Cadastre-se!</h2>
+				<div class="inputBox">
+					<input type="name" name='nome' required="required">
+					<span>Nome</span>
+					<i></i>
+				</div>
+				<div class="inputBox">
+					<input type="email" name='email' required="required">
+					<span>Email</span>
+					<i></i>
+				</div>
+				<div class="inputBox">
+					<input type="password" name='senha' required="required">
+					<span>Senha</span>
+					<i></i>
+				</div>
+				<input type="submit" value="Cadastrar">
+			</form>
+		</div>
+
+	</body>
+
+</html>

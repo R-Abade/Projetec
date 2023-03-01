@@ -9,21 +9,20 @@
 
 	<body class="banner">
 		<div class="box">
-			<form autocomplete="off">
+			<form action="{{ url_for('login') }}" method="post" autocomplete="on">
 				<h2>Login</h2>
 				<div class="inputBox">
-					<input type="email" required="required">
+					<input class="form-control" type="email" name='email' required="required">
 					<span>Email</span>
 					<i></i>
 				</div>
 				<div class="inputBox">
-					<input type="password" required="required">
+					<input class="form-control" type="password" name='senha' required="required">
 					<span>Senha</span>
 					<i></i>
 				</div>
 				<div class="links">
-					<a href="#">Esqueceu a senha?</a>
-					<a href="#">Não tem uma conta ainda?</a>
+					<a href="{{ url_for('cadUser') }}">Não tem uma conta ainda?</a>
 				</div>
 				<input type="submit" value="Login">
 			</form>
